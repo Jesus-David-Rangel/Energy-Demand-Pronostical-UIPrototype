@@ -10,5 +10,14 @@ Prototipo funcional desarrollado en Python para el análisis exploratorio, valid
 1. Clonar el repositorio e instalar dependencias:
    ```bash
    pip install -r requirements.txt
-   python main.py
    streamlit run app.py
+   ```
+
+## Despliegue en Streamlit Community Cloud
+
+1. Inicia sesión en [Streamlit Community Cloud](https://share.streamlit.io/) con tu cuenta de GitHub.
+2. Selecciona **New app** y el repositorio `Jesus-David-Rangel/Energy-Demand-Pronostical-UIPrototype`.
+3. Elige la rama `main` y establece `app.py` como **Main file path**.
+4. Pulsa **Deploy**. Streamlit instalará automáticamente `requirements.txt` y usará Python 3.11 mediante `runtime.txt`.
+
+La aplicación utiliza `data/processed/consumo_energia_colombia.csv`, que ya está incluido en el repositorio. Cada actualización de `main` podrá redesplegarse automáticamente desde la configuración de la aplicación.
