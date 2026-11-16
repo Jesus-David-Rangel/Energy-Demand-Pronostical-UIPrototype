@@ -3,6 +3,8 @@
 **Curso:** Proyecto de Grado (202016907) - Ingeniería de Sistemas (UNAD)  
 **Autores:** Jesús David Silva Rangel & Marcial Alberto Díaz Velaides  
 
+**Consulta del proyecto en Streamlit Community Cloud:** https://energy-demand-pronostical-uiprototype.streamlit.app/
+
 ## Descripción
 Prototipo funcional desarrollado en Python para el análisis exploratorio, validación temporal (*rolling-origin*) y pronóstico del consumo mensual agregado nacional de energía eléctrica en Colombia (GWh) a horizontes de 6 y 12 meses mediante modelos **Seasonal Naive**, **ARIMA** y **SARIMA**.
 
